@@ -1,14 +1,15 @@
 import React from 'react';
+import Header from './Header/header'
+import Article from './Article/article'
 
 function App() {
-  return (
-    <div className="App">
+    return (
+        <div>
 
-
-          Learn React
-
-    </div>
-  );
+            <Header/>
+            <Article/>
+        </div>
+    );
 }
 
 export default App;
